@@ -1,7 +1,92 @@
 .App {
   text-align: center;
+  padding: 20px;
+  background: #61dafb;
 }
-
+.Item{
+  width:400px;
+  padding: 20px;
+  margin:20px auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px grey;
+  background: linear-gradient(45deg,rgb(119, 119, 168),rgb(177, 160, 160),rgb(230, 230, 131),rgb(223, 146, 158),rgb(241, 207, 207));
+}
+h2{
+  text-decoration: underline;
+  text-shadow: 1px 1px black;
+  color: green;
+}
+h1{
+  text-shadow: 1px 1px black;
+  color: brown;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+  font-style: italic;
+  border: 2px solid white;
+  width: fit-content;
+  margin: 3px auto;
+  border-radius: 5px;
+  padding: 5px;
+  background: black;
+  color: wheat;
+}
+input{
+  width: 70%;
+  height: 20px;
+  margin: 3px;
+  border: 1px solid blue;
+}
+textarea{
+  width: 70%;
+  height: 30px;
+  margin: 3px;
+  border: 1px solid blue;
+}
+.table{
+  margin:10px auto;
+  background:linear-gradient(45deg,rgb(75, 75, 230),rgb(31, 30, 30));
+  padding: 20px;
+  color: white;
+  border-collapse: collapse;
+  max-width: 80%;
+}
+td,th{
+  padding: 5px;
+  border: 1px solid white;
+}
+.labels{
+  text-align: right;
+  font-weight: bold;
+  font-style: italic;
+}
+button{
+  width: 70%;
+  border-radius: 10px;
+  height: 30px;
+  margin: 3px;
+  padding: 5px;
+}
+.main_btn{
+  background:linear-gradient(120deg,black,purple);
+  color: white;
+}
+.main_btn:hover{
+  background:linear-gradient(120deg,rgb(49, 46, 46),rgb(177, 23, 177));
+}
+.sub_btn{
+  width: 100px;
+  background: rgb(139, 42, 42);
+  color: white;
+}
+.sub1_btn{
+  width: 90%;
+  background: rgb(139, 42, 42);
+  color: white;
+}
+.sub_btn:hover,.sub1_btn:hover{
+  background: rgb(92, 31, 31);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

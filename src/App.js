@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Comment from './Comment';
+import Forum from './Forum';
+import Ecommerce from './Ecommerce';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>9 Feb 2022 Assignments</h1>
+      <Comment></Comment>
+      <Forum topic="About React"></Forum>
+      <Ecommerce></Ecommerce>
     </div>
   );
 }
